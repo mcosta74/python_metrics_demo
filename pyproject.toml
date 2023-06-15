@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "python-metrics-demo"
+version = "0.1.0"
+description = ""
+authors = ["Massimo Costa <costa.massimo@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "python_metrics_demo"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+prometheus-client = "^0.16.0"
+nats-py = "^2.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
